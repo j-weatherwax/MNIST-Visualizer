@@ -158,7 +158,9 @@ footer {
     background-color: white;
     width: 50vw;
     height: 70vh;
-    top: 15vh;
+    /* top: 15vh; */
+    margin: 15vh auto;
+    padding: 0px 1vw;
 }
 
 .center {
@@ -169,6 +171,10 @@ footer {
     height: 100vh;
 }
 
-.header, .credits{
+h3, .credits{
     text-align: center;
+}
+
+.textcontent {
+    padding: 0px 4vw;
 }
